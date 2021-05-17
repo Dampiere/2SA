@@ -1,0 +1,29 @@
+/*-------------technologies---------------*/
+
+.technologies__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 280px;
+    text-align: left;
+}
+
+.technologies__title {
+    padding-top: 140px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 46px;
+    color: #414042;
+}
+
+.technologies__text {
+    font-size: 18px;
+    line-height: 140%;
+    color: #767676;
+    margin-bottom: 100px;
+}
+
+.technologies__img {
+    margin-bottom: 200px;
+}

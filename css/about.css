@@ -1,0 +1,119 @@
+/*-------------we__are---------------*/
+
+.we__are {
+    background: url(../img/index/science/science_background.png) no-repeat;
+}
+
+.we__are__content {
+    display: flex;
+    flex-direction: column;
+    max-height: 720px;
+    padding-top: 140px;
+    margin-left: 280px;
+}
+
+.we__are__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #414042;
+    margin-bottom: 40px ;
+}
+
+.we__are__text {
+    font-size: 18px;
+    line-height: 140%;
+    color: #767676;
+}
+
+.we__are__item {
+    display: flex;
+    margin-top: 100px;
+}
+
+.we__are__world {
+    font-size: 32px;
+    line-height: 31px;
+    color: #414042;
+}
+
+.we__are__explore {
+    margin-left: 320px;
+    text-align: right;
+}
+
+.we__are__explore li {
+    margin-bottom: 17px;
+    font-size: 18px;
+    line-height: 17px;
+    color: #AFAFAF;
+}
+
+.we__are__countries {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 600px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.we__are__countries li {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 29px;
+    color: #414042;
+    margin-top: 20px;
+}
+
+/*-------------map---------------*/
+
+.map__title {
+    font-size: 32px;
+    line-height: 31px;
+    color: #414042;
+    margin-left: 280px;
+    margin-bottom: 50px;
+}
+
+.map__world {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+/*-------------images---------------*/
+
+.images {
+    background: url(../img/index/science/science_background.png) no-repeat;
+}
+
+.images__content {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.images__left__bottom,
+.images__right__top {
+    display: flex;
+    justify-content: center;
+}
+
+.images__left__bottom__first,
+.images__right__top__first {
+    margin-right: 25px;
+}
+
+.images__left__bottom {
+    margin-top: 25px;
+}
+
+.images__right__top {
+    margin-bottom: 25px;
+}
+
+.images__left {
+    margin-right: 25px;
+}

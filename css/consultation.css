@@ -1,0 +1,71 @@
+* {
+    font-family: Gotham Pro;
+}
+
+.consultation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 46px;
+    color: #414042;
+    text-align: left;
+    margin-right: 230px;
+}
+
+.items {
+    display: flex;
+}
+
+.item__title {
+    font-size: 24px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.items__left,
+.items__right {
+    margin: 40px;
+}
+
+.items__left input {
+    width: 320px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 14px;
+}
+
+.items__right input {
+    width: 320px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 14px;
+}
+
+.items__right_input textarea{
+    width: 340px;
+    height: 139px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.5);
+    resize: none;
+}
+
+.calendar__title {
+    font-size: 24px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.7);
+    margin-right: 260px;
+    margin-top: 30px;
+}
