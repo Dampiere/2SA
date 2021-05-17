@@ -25,6 +25,8 @@
     font-size: 18px;
     line-height: 140%;
     color: #767676;
+    max-width: 900px;
+    margin-bottom: 20px;
 }
 
 .we__are__item {
@@ -65,6 +67,11 @@
     color: #414042;
     margin-top: 20px;
 }
+
+.we__are__countries a {
+    color: #414042;
+}
+
 
 /*-------------map---------------*/
 

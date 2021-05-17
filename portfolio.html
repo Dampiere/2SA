@@ -6,44 +6,52 @@
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portfolio.css">
+    <script src="js/language.min.js"></script>
 </head>
 <body>
 <header>
     <div class="header__content">
         <div class="header__logo">
-            <img src="img/index/header/header_logo.png">
+            <a href="index.html"><img src="img/index/header/header_logo.png"></a>
         </div>
         <div class="push"></div>
         <div class="header__menu">
             <ul>
-                <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">TECHNOLOGIES</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACT US</a></li>
+                <li ><a href="portfolio.html" class="lang" key="port">PORTFOLIO</a></li>
+                <li ><a href="technologies.html" class="lang" key="tech">TECHNOLOGIES</a></li>
+                <li ><a href="about.html" class="lang" key="about">ABOUT</a></li>
+                <li ><a href="blog.html" class="lang" key="blog">BLOG</a></li>
+                <li ><a href="contact us.html" class="lang" key="contact">CONTACT US</a></li>
             </ul>
         </div>
         <div class="header__language">
-            <select name="language">
-                <option value="one">EN</option>
-                <option value="two">RU</option>
-            </select>
+            <div class="dropdown">
+                <span>EN</span>
+                <div class="dropdown-content">
+                    <button id="en" class="translate">EN</button>
+                    <button id="ru" class="translate">RU</button>
+                </div>
+                <div class="dropdown__img">
+                    <img src="img/index/header/list.png">
+                </div>
+            </div>
         </div>
     </div>
 </header>
 <section class="portfolio__main">
     <div class="portfolio__main__content">
-        <div class="portfolio__main__title">
+        <div class="portfolio__main__title lang" key="portfolio_p">
             Portfolio
         </div>
-        <div class="portfolio__main__title__second">
+        <div class="portfolio__main__title__second lang" key="projects">
             Our recently implemented projects
         </div>
-        <div class="portfolio__main__text">
+        <div class="portfolio__main__text lang" key="levels">
             In recent times, we have realized dozens of design projects for companies of<br>
             different levels in various fields, including financial institutions, pool automation,<br>
             retail, trading, and much more.<br>
-            <br>
+        </div>
+        <div class="portfolio__main__text lang" key="responsible">
             We are responsible for our work and undertake only those projects where we<br>
             can guarantee the result.
         </div>
@@ -53,10 +61,10 @@
     <div class="main__menu_content">
         <div class="main__menu__pages">
             <ul>
-                <li><a class="main__menu__pages_all">All</a></li>
-                <li><a>Website</a></li>
-                <li><a>Mobile application</a></li>
-                <li><a>Landing page</a></li>
+                <li><a class="main__menu__pages_all lang" key="all" style="color: black;">All</a></li>
+                <li><a class="lang" key="website">Website</a></li>
+                <li><a class="lang" key="application">Mobile application</a></li>
+                <li><a class="lang" key="landing page">Landing page</a></li>
             </ul>
         </div>
         <div class="main__menu__item">
@@ -65,10 +73,10 @@
                     <div class="main__menu__img">
                         <img src="img/portfolio/main_menu/one.png">
                     </div>
-                    <div class="main__menu__title">
+                    <div class="main__menu__title lang" key="fitness">
                         Fitness Tracker App
                     </div>
-                    <div class="main__menu__text">
+                    <div class="main__menu__text lang" key="portfolio text1">
                         Porta leo auctor odio posuere tincidunt erat elit orci risus.<br>
                         Metus ac, interdum ut eu feugiat facilisi varius sed risus. In<br>
                         neque, faucibus proin senectus orci, pretium. Nec sit libero<br>
@@ -80,10 +88,10 @@
                     <div class="main__menu__img">
                         <img src="img/portfolio/main_menu/two.png">
                     </div>
-                    <div class="main__menu__title">
+                    <div class="main__menu__title lang" key="bank">
                         MyWallet Bank App
                     </div>
-                    <div class="main__menu__text">
+                    <div class="main__menu__text lang" key="portfolio text2">
                         Porta leo auctor odio posuere tincidunt erat elit orci risus.<br>
                         Metus ac, interdum ut eu feugiat facilisi varius sed risus. In<br>
                         neque, faucibus proin senectus orci, pretium. Nec sit libero<br>
@@ -95,10 +103,10 @@
                     <div class="main__menu__img">
                         <img src="img/portfolio/main_menu/three.png">
                     </div>
-                    <div class="main__menu__title">
+                    <div class="main__menu__title lang" key="acon">
                         ACON UX/UI
                     </div>
-                    <div class="main__menu__text">
+                    <div class="main__menu__text lang" key="portfolio text3">
                         Porta leo auctor odio posuere tincidunt erat elit orci risus.<br>
                         Metus ac, interdum ut eu feugiat facilisi varius sed risus. In<br>
                         neque, faucibus proin senectus orci, pretium. Nec sit libero<br>
@@ -114,10 +122,10 @@
                     <div class="main__menu__img">
                         <img src="img/portfolio/main_menu/four.png">
                     </div>
-                    <div class="main__menu__title">
+                    <div class="main__menu__title lang" key="autoprom">
                         AUTOPROM Online Shop
                     </div>
-                    <div class="main__menu__text">
+                    <div class="main__menu__text lang" key="portfolio text4">
                         Porta leo auctor odio posuere tincidunt erat elit orci risus.<br>
                         Metus ac, interdum ut eu feugiat facilisi varius sed risus. In<br>
                         neque, faucibus proin senectus orci, pretium. Nec sit libero<br>
@@ -129,10 +137,10 @@
                     <div class="main__menu__img">
                         <img src="img/portfolio/main_menu/five.png">
                     </div>
-                    <div class="main__menu__title">
+                    <div class="main__menu__title lang" key="alfa">
                         ALFA-OMEGA PLUS
                     </div>
-                    <div class="main__menu__text">
+                    <div class="main__menu__text lang" key="portfolio text5">
                         Porta leo auctor odio posuere tincidunt erat elit orci risus.<br>
                         Metus ac, interdum ut eu feugiat facilisi varius sed risus. In<br>
                         neque, faucibus proin senectus orci, pretium. Nec sit libero<br>
@@ -143,7 +151,6 @@
             </div>
         </div>
     </div>
-
 </section>
 <section class="info">
     <div class="info__content">
@@ -151,25 +158,25 @@
             <div class="info__img">
                 <img src="img/index/info/team.png">
             </div>
-            <div class="info__title">
+            <div class="info__title lang" key="team info">
                 Our team
             </div>
-            <div class="info__text">
+            <div class="info__text lang" key="professionals">
                 We are a team of passionate<br>
                 professionals who change the<br>
                 world for the better and do our<br>
                 best in what we love
             </div>
-            <button class="info__button">MORE</button>
+            <button class="info__button lang" key="more">MORE</button>
         </div>
         <div class="info__technologies">
             <div class="info__img">
                 <img src="img/index/info/technologies.png">
             </div>
-            <div class="info__title">
+            <div class="info__title lang" key="technologies">
                 Technologies
             </div>
-            <div class="info__text">
+            <div class="info__text lang" key="up to date">
                 Up to date technologies allow us<br>
                 to create innovative designs that<br>
                 users fall in love with
@@ -179,10 +186,10 @@
             <div class="info__img">
                 <img src="img/index/info/portfolio.png">
             </div>
-            <div class="info__title">
+            <div class="info__title lang" key="portfolio">
                 portfolio
             </div>
-            <div class="info__text">
+            <div class="info__text lang" key="design projects">
                 In recent times, we have realized<br>
                 dozens of design projects for<br>
                 companies of different levels in<br>
@@ -193,17 +200,20 @@
             <div class="info__img">
                 <img src="img/index/info/blog.png">
             </div>
-            <div class="info__title">
+            <div class="info__title lang" key="blog info">
                 blog
             </div>
-            <div class="info__text">
+            <div class="info__text lang" key="useful">
                 Useful articles about the creation<br>
                 of digital projects
             </div>
         </div>
     </div>
-    <div class="info__text__bottom">
-        DO you have an interesting business plan or idea?<a href="#"> Feel free to contact us!</a>
+    <div class="info__bottom__item">
+        <div class="info__text__bottom lang" key="contact us footer">
+            DO you have an interesting business plan or idea?
+        </div>
+        <a href="#" class="info__bottom__link lang" key="contact us link"> Feel free to contact us!</a>
     </div>
 </section>
 <footer>
@@ -223,15 +233,15 @@
         </div>
         <div class="footer__menu">
             <ul>
-                <li>PORTFOLIO</li>
-                <li>TECHNOLOGIES</li>
-                <li>ABOUT</li>
-                <li>BLOG</li>
-                <li>CONTACT US</li>
+                <li ><a href="#" class="lang" key="port">PORTFOLIO</a></li>
+                <li ><a href="#" class="lang" key="tech">TECHNOLOGIES</a></li>
+                <li ><a href="#" class="lang" key="about">ABOUT</a></li>
+                <li ><a href="#" class="lang" key="blog">BLOG</a></li>
+                <li ><a href="#" class="lang" key="contact">CONTACT US</a></li>
             </ul>
         </div>
         <div class="footer__contacts">
-            <div class="footer__contacts__title">
+            <div class="footer__contacts__title lang" key="footer contacts">
                 Our contacts
             </div>
             <div class="footer__contacts__number">
@@ -242,13 +252,13 @@
             </div>
         </div>
         <div class="footer__mail">
-            <div class="footer__mail__title">
+            <div class="footer__mail__title lang" key="discuss">
                 Contact us to discuss<br>
                 design for you
             </div>
             <input class="footer__input" value="Type your name">
             <input class="footer__input" type="email" value="Type your e-mail">
-            <button class="footer__button">Send</button>
+            <button class="footer__button lang" key="send">Send</button>
             <div class="footer__mail__cooperate">
                 © 2021 «AGENCY 2SA». All rights reserved.
             </div>

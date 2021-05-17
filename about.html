@@ -6,78 +6,86 @@
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/about.css">
+    <script src="js/language.min.js"></script>
 </head>
 <body>
 <header>
     <div class="header__content">
         <div class="header__logo">
-            <img src="img/index/header/header_logo.png">
+            <a href="index.html"><img src="img/index/header/header_logo.png"></a>
         </div>
         <div class="push"></div>
         <div class="header__menu">
             <ul>
-                <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">TECHNOLOGIES</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACT US</a></li>
+                <li ><a href="portfolio.html" class="lang" key="port">PORTFOLIO</a></li>
+                <li ><a href="technologies.html" class="lang" key="tech">TECHNOLOGIES</a></li>
+                <li ><a href="#" class="lang" key="about">ABOUT</a></li>
+                <li ><a href="blog.html" class="lang" key="blog">BLOG</a></li>
+                <li ><a href="contact us.html" class="lang" key="contact">CONTACT US</a></li>
             </ul>
         </div>
         <div class="header__language">
-            <select name="language">
-                <option value="one">EN</option>
-                <option value="two">RU</option>
-            </select>
+            <div class="dropdown">
+                <span>EN</span>
+                <div class="dropdown-content">
+                    <button id="en" class="translate">EN</button>
+                    <button id="ru" class="translate">RU</button>
+                </div>
+                <div class="dropdown__img">
+                    <img src="img/index/header/list.png">
+                </div>
+            </div>
         </div>
     </div>
 </header>
 <section class="we__are">
     <div class="we__are__content">
-        <div class="we__are__title">
+        <div class="we__are__title lang" key="we are">
             Who we are
         </div>
-        <div class="we__are__text">
+        <div class="we__are__text lang" key="2sa">
             2SA - focuses on new technologies, features and product business logic. Our clients call us<br>
             "strategic partner for life" - this is our main goal.<br>
-            <br>
+        </div>
+        <div class="we__are__text lang" key="founded">
             Founded in 2020 by two friends, 2SA has quickly grown into a large team of like-minded<br>
             professionals with a common vision for their company. The team is passionate about creating<br>
             valuable products and helping other companies climb the technological ladder.
         </div>
         <div class="we__are__item">
-            <div class="we__are__world">
+            <div class="we__are__world lang" key="world">
                 We have gathered people all over the world
             </div>
             <div class="we__are__explore">
                 <ul>
                     <li><img src="img/about/we_are/arrow_right.png"></li>
-                    <li><a>Explore our portfolio</a></li>
+                    <li><a href="portfolio.html" class="lang" key="explore">Explore our portfolio</a></li>
                 </ul>
             </div>
         </div>
         <div class="we__are__countries">
             <ul>
                 <li><img src="img/about/we_are/usa.png"></li>
-                <li><a>The USA</a></li>
+                <li><a class="lang" key="usa">The USA</a></li>
             </ul>
             <ul>
                 <li><img src="img/about/we_are/poland.png"></li>
-                <li><a>Poland</a></li>
+                <li><a class="lang" key="poland">Poland</a></li>
             </ul>
             <ul>
                 <li><img src="img/about/we_are/ukraine.png"></li>
-                <li><a>Ukraine</a></li>
+                <li><a class="lang" key="ukraine">Ukraine</a></li>
             </ul>
             <ul>
                 <li><img src="img/about/we_are/russia.png"></li>
-                <li><a>Russia</a></li>
+                <li><a class="lang" key="russia">Russia</a></li>
             </ul>
         </div>
     </div>
 </section>
 <section class="map">
     <div class="map__content">
-        <div class="map__title">
+        <div class="map__title lang" key="customers">
             Customers geography
         </div>
         <div class="map__world">
@@ -121,25 +129,25 @@
             <div class="info__img">
                 <img src="img/index/info/team.png">
             </div>
-            <div class="info__title">
+            <div class="info__title lang" key="team info">
                 Our team
             </div>
-            <div class="info__text">
+            <div class="info__text lang" key="professionals">
                 We are a team of passionate<br>
                 professionals who change the<br>
                 world for the better and do our<br>
                 best in what we love
             </div>
-            <button class="info__button">MORE</button>
+            <button class="info__button lang" key="more">MORE</button>
         </div>
         <div class="info__technologies">
             <div class="info__img">
                 <img src="img/index/info/technologies.png">
             </div>
-            <div class="info__title">
+            <div class="info__title lang" key="technologies">
                 Technologies
             </div>
-            <div class="info__text">
+            <div class="info__text lang" key="up to date">
                 Up to date technologies allow us<br>
                 to create innovative designs that<br>
                 users fall in love with
@@ -149,10 +157,10 @@
             <div class="info__img">
                 <img src="img/index/info/portfolio.png">
             </div>
-            <div class="info__title">
+            <div class="info__title lang" key="portfolio">
                 portfolio
             </div>
-            <div class="info__text">
+            <div class="info__text lang" key="design projects">
                 In recent times, we have realized<br>
                 dozens of design projects for<br>
                 companies of different levels in<br>
@@ -163,17 +171,20 @@
             <div class="info__img">
                 <img src="img/index/info/blog.png">
             </div>
-            <div class="info__title">
+            <div class="info__title lang" key="blog info">
                 blog
             </div>
-            <div class="info__text">
+            <div class="info__text lang" key="useful">
                 Useful articles about the creation<br>
                 of digital projects
             </div>
         </div>
     </div>
-    <div class="info__text__bottom">
-        DO you have an interesting business plan or idea?<a href="#"> Feel free to contact us!</a>
+    <div class="info__bottom__item">
+        <div class="info__text__bottom lang" key="contact us footer">
+            DO you have an interesting business plan or idea?
+        </div>
+        <a href="#" class="info__bottom__link lang" key="contact us link"> Feel free to contact us!</a>
     </div>
 </section>
 <footer>
@@ -193,15 +204,15 @@
         </div>
         <div class="footer__menu">
             <ul>
-                <li>PORTFOLIO</li>
-                <li>TECHNOLOGIES</li>
-                <li>ABOUT</li>
-                <li>BLOG</li>
-                <li>CONTACT US</li>
+                <li ><a href="#" class="lang" key="port">PORTFOLIO</a></li>
+                <li ><a href="#" class="lang" key="tech">TECHNOLOGIES</a></li>
+                <li ><a href="#" class="lang" key="about">ABOUT</a></li>
+                <li ><a href="#" class="lang" key="blog">BLOG</a></li>
+                <li ><a href="#" class="lang" key="contact">CONTACT US</a></li>
             </ul>
         </div>
         <div class="footer__contacts">
-            <div class="footer__contacts__title">
+            <div class="footer__contacts__title lang" key="footer contacts">
                 Our contacts
             </div>
             <div class="footer__contacts__number">
@@ -212,13 +223,13 @@
             </div>
         </div>
         <div class="footer__mail">
-            <div class="footer__mail__title">
+            <div class="footer__mail__title lang" key="discuss">
                 Contact us to discuss<br>
                 design for you
             </div>
             <input class="footer__input" value="Type your name">
             <input class="footer__input" type="email" value="Type your e-mail">
-            <button class="footer__button">Send</button>
+            <button class="footer__button lang" key="send">Send</button>
             <div class="footer__mail__cooperate">
                 © 2021 «AGENCY 2SA». All rights reserved.
             </div>
