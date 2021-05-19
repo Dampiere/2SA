@@ -1,0 +1,41 @@
+* {
+    font-family: Gotham Pro;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.successfully {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30%;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 46px;
+    color: #414042;
+    text-align: left;
+    max-width: 578px
+}
+
+.items {
+    display: flex;
+}
+
+.successfully__button {
+    background: #2C7DD9;
+    width: 260px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 38px;
+    margin-top: 30px;
+}
