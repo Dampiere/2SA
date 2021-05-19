@@ -155,6 +155,10 @@
     .fitness__tracker__content__right {
         margin-left: 17%;
     }
+
+    .fitness__tracker__item {
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 1350px) {
