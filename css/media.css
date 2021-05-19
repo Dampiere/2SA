@@ -175,3 +175,30 @@
     }
 
 }
+
+/*-------------portfolio---------------*/
+
+@media (max-width: 1510px) {
+    .main__menu__item__right {
+        margin-top: 0;
+    }
+
+}
+
+/*-------------info---------------*/
+
+@media (max-width: 1060px) {
+    .info__content {
+        margin-left: 5%;
+    }
+
+}
+
+/*-------------technologies---------------*/
+
+@media (max-width: 1060px) {
+    .technologies__content {
+        margin-left: 5%;
+    }
+
+}
