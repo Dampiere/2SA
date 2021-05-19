@@ -138,6 +138,10 @@ header {
     color: #FFFFFF;
 }
 
+.design__contact__us a {
+    color: #FFFFFF;
+}
+
 .design__contact {
     display: flex;
     margin-top: 140px;
