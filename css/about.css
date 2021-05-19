@@ -1,3 +1,10 @@
+.about__border a{
+    border-bottom: ridge;
+    width: 49px;
+    border-color: #61A2ED;
+    margin: 0;
+}
+
 /*-------------we__are---------------*/
 
 .we__are {

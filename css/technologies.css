@@ -1,3 +1,10 @@
+.technologies__border a{
+    border-bottom: ridge;
+    width: 53px;
+    border-color: #61A2ED;
+    margin: 0;
+}
+
 /*-------------technologies---------------*/
 
 .technologies__content {
