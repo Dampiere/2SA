@@ -102,5 +102,72 @@
 
 }
 
-/*-------------index---------------*/
+/*-------------about---------------*/
 
+@media (max-width: 1500px) {
+    .we__are__explore {
+        margin-right: 5%;
+    }
+
+    .we__are__countries {
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 1370px) {
+    .images__right {
+        margin-top: 5%;
+    }
+
+}
+
+@media (max-width: 1020px) {
+    .we__are__content {
+        margin-left: 5%;
+    }
+
+    .map__title {
+        margin-left: 5%;
+    }
+
+}
+
+/*-------------blog---------------*/
+
+
+@media (max-width: 1370px) {
+    .digital__product__item__one,
+    .digital__product__item__two,
+    .digital__product__item__three,
+    .digital__product__item__four {
+        margin-bottom: 5%;
+    }
+
+}
+
+/*-------------fitness__tracker---------------*/
+
+@media (max-width: 1700px) {
+    .fitness__tracker__content {
+        flex-direction: column;
+    }
+
+    .fitness__tracker__content__right {
+        margin-left: 17%;
+    }
+}
+
+@media (max-width: 1350px) {
+    .results__content {
+        margin: 5%;
+    }
+
+    .interface__content {
+        margin: 5%;
+    }
+
+    .other__product__content {
+        margin: 5%;
+    }
+
+}

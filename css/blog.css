@@ -5,7 +5,7 @@
 }
 
 .digital__product__content {
-    margin-left: 280px;
+    margin-left: 17%;
 }
 
 .digital__product__title {
@@ -28,6 +28,7 @@
 .digital__product__item__three,
 .digital__product__item__four {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .digital__product__item__img {

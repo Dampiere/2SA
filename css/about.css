@@ -9,7 +9,7 @@
     flex-direction: column;
     max-height: 720px;
     padding-top: 140px;
-    margin-left: 280px;
+    margin-left: 17%;
 }
 
 .we__are__title {
@@ -79,7 +79,7 @@
     font-size: 32px;
     line-height: 31px;
     color: #414042;
-    margin-left: 280px;
+    margin-left: 17%;
     margin-bottom: 50px;
 }
 
@@ -87,6 +87,10 @@
     display: flex;
     justify-content: center;
     margin-bottom: 120px;
+}
+
+.map__world img {
+    max-width: 100%;
 }
 
 /*-------------images---------------*/
@@ -100,6 +104,7 @@
     justify-content: center;
     padding-top: 70px;
     padding-bottom: 70px;
+    flex-wrap: wrap;
 }
 
 .images__left__bottom,
