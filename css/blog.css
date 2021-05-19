@@ -54,6 +54,10 @@
     color: #414042;
 }
 
+.digital__product__item__text a {
+    color: #414042;
+}
+
 .digital__product__title__bottom {
     font-weight: bold;
     font-size: 24px;
