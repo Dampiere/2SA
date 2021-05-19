@@ -93,6 +93,14 @@
         margin-left: 5%;
     }
 
+    .header__language {
+        margin-left: 2%;
+    }
+
+    .header__menu li {
+        margin-right: 10px;
+    }
+
 }
 
 @media (max-width: 900px) {
