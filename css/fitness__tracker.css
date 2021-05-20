@@ -20,13 +20,14 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 17%;
+    margin-left: 12%;
     text-align: left;
 }
 
 .fitness__tracker__content__right {
     padding-top: 100px;
     margin-right: 160px;
+    min-width: 0;
 }
 
 .fitness__tracker__title {
@@ -76,8 +77,42 @@
 }
 
 .main__slider {
+    min-width: 0;
     display: flex;
-    align-items: center;
+    position: relative;
+    padding-left: 50px;
+    max-width: 580px;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.main__slider .slick-arrow {
+    position: absolute;
+    font-size: 0;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    border: none;
+
+}
+
+.main__slider .slick-arrow.slick-prev {
+    background: url("../img/fitness_tracker/fitness_tracker_content/left.png") 0 0 no-repeat;
+    left: 0;
+    outline: none;
+}
+
+.main__slider .slick-arrow.slick-next {
+    background: url("../img/fitness_tracker/fitness_tracker_content/right.png") 0 0 no-repeat;
+    right: -8%;
+    outline: none;
 }
 
 /*-------------tasks---------------*/
@@ -176,6 +211,10 @@
     margin: 0 14%;
 }
 
+.interface__content__slider__main {
+    max-width: 1400px;
+}
+
 .interface__content__video {
     display: flex;
     justify-content: center;
@@ -188,6 +227,47 @@
     line-height: 46px;
     color: #414042;
     margin-bottom: 70px;
+}
+
+.interface__content__slider__items {
+    min-width: 0;
+}
+
+.interface__content__slider__items {
+    min-width: 0;
+    display: flex;
+    position: relative;
+    padding-left: 50px;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.interface__content__slider__items .slick-arrow {
+    position: absolute;
+    font-size: 0;
+    top: 50%;
+    width: 50px;
+    height: 65px;
+    z-index: 10;
+    border: none;
+}
+
+.interface__content__slider__items .slick-arrow.slick-prev {
+    background: url("../img/fitness_tracker/other_product/left.png") 0 0 no-repeat;
+    left: 0;
+    outline: none;
+}
+
+.interface__content__slider__items .slick-arrow.slick-next {
+    background: url("../img/fitness_tracker/other_product/right.png") 0 0 no-repeat;
+    right: -5%;
+    outline: none;
 }
 
 /*-------------other__product---------------*/

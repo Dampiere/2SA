@@ -162,11 +162,26 @@
 
     .fitness__tracker__content__right {
         margin-left: 17%;
+        margin-right: 40%;
     }
 
     .fitness__tracker__item {
         flex-wrap: wrap;
     }
+}
+
+@media (max-width: 1550px) {
+    .fitness__tracker__content__right {
+        margin-right: 35%;
+    }
+
+}
+
+@media (max-width: 1420px) {
+    .fitness__tracker__content__right {
+        margin-right: 30%;
+    }
+
 }
 
 @media (max-width: 1350px) {
@@ -183,6 +198,42 @@
     }
 
 }
+
+@media (max-width: 1300px) {
+    .fitness__tracker__content__right {
+        margin-right: 25%;
+    }
+
+}
+
+@media (max-width: 1180px) {
+    .fitness__tracker__content__right {
+        margin-right: 20%;
+    }
+
+}
+
+@media (max-width: 1075px) {
+    .fitness__tracker__content__right {
+        margin-left: 10%;
+        margin-right: 25%;
+    }
+}
+
+@media (max-width: 1040px) {
+    .fitness__tracker__content__right {
+        margin-left: 10%;
+        margin-right: 20%;
+    }
+}
+
+@media (max-width: 970px) {
+    .fitness__tracker__content__right {
+        margin-left: 10%;
+        margin-right: 15%;
+    }
+}
+
 
 /*-------------portfolio---------------*/
 
